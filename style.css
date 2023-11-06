@@ -1,12 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: #ffd9ab;
-}
+/*code gebruikt van Erik Moorman en aangepast*/
 
 header{
     position: relative;
@@ -144,6 +136,15 @@ nav input:checked ~ .menu {
 }
 
 /* Eigen code */ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ffd9ab;
+}
 
 p {
     font-size: 0.9em;
@@ -159,23 +160,38 @@ h3 {
     color: #2e5d56;
 }
 
-h4 {
-    color: whitesmoke;
-    padding: 10px;
-}
-
 p, h3 {
     align-items: center;
     padding: 13px;
 }
 
+main img {
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 13px;
+}
+
 footer {
     background-color: #2e5d56;
-    height: 50px;
+    height: 100px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 30px;
 }
  
+footer img {
+    width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 8px;
+}
+
+footer p {
+    color: #2e5d56;
+    background-color: #BCE9E2;
+    display: flex;
+    justify-content: center;
+}
+
 .lijnen {
     display: flex;
     align-items: center;
@@ -193,12 +209,29 @@ footer {
     border-radius: 5px;
 }
 
-main img {
+/* Homepagina */
+.groen_vlak {
+    width: 375px;
     height: 300px;
-    border-radius: 10px;
-    margin-left: 13px;
+    background-color: #BCE9E2;
+    border: 2px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
+.groen_vlak img {
+    height: 250px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: right;
+}
+
+.groen_vlak h2 {
+    display: flex;
+    justify-content: left;
+}
+
+/* Fietsbezorging */
 .boog {
     background-color: #2e5d56;
     width: 350px;
@@ -210,7 +243,7 @@ main img {
 .boog h2 {
     margin-left: 80px;
     padding-top: 50px;
-    color: #BCE9E2;
+    color: whitesmoke;
 }
 
 .boog p {
@@ -226,26 +259,11 @@ main img {
     margin-left: 25px;
 }
 
-.groen_vlak {
-    width: 375px;
-    height: 300px;
-    background-color: #2e5d56;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.groen_vlak img {
-    height: 250px;
-    margin-top: 25px;
-}
-
-.knop {
-    background-color: black;
-    color: whitesmoke;
-    border-radius: 5px;
-    width: 110px;
-    height: 40px;
-    float: right;
+.boog ul {
+    margin-left: 25px;
+    margin-right: 20px;
+    font-size: 0.9em;
+    color: #BCE9E2;
 }
 
 .tweede {
@@ -264,5 +282,130 @@ main img {
 }
 
 .derde {
-    gap: 5px;
+    height: 635px;
+}
+
+.derde img {
+    width: 250px;
+    height: 150px;
+    margin-top: 3px;
+}
+
+.derde h2 {
+    font-size: 1em;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.derde li {
+    color: black;
+}
+
+.derde em {
+    color: #BCE9E2;
+}
+
+/* Duurzaamheidsdoelen */ 
+.kleurenovergang {
+    height: 15vh;
+    background-image: url(afbeeldingen/kleurenovergang.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5px;
+    border-radius: 2px;
+}
+
+/* Contact */
+.contact_formulier h3 {
+    font-size: 0.9em;
+    margin-left: 20px;
+}
+
+.contact_formulier h4 {
+    text-decoration: none;
+    background-color: #2e5d56;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px 0 5px 0;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.verzend_knop h4 {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border: solid;
+}
+
+.verzend_knop a:hover { /* waarom werkt dit niet? */
+    background-color: #BCE9E2;
+    color: black;
+}
+
+.verzend_knop a:link {
+    text-decoration: none;
+}
+
+.contact_vlak_klein {
+    background-color: whitesmoke;
+    width: 220px;
+    height: 45px;
+    border: 1px solid #2e5d56;
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+
+.contact_vlak_groot {
+    background-color: whitesmoke;
+    width: 320px;
+    height: 120px;
+    border: 1px solid #2e5d56;
+    margin-left: 30px;
+}
+
+
+/* Recensies */
+.zicht {
+    width: 100vw;
+    height: 150vh;
+    background-color: #ffd9ab;
+}
+
+.zicht h3 {
+    background-color: #BCE9E2;
+    color: #2e5d56;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid;
+}
+
+.zicht:hover .verborgen {
+    height: 50%;
+    transition: 5s ease-in;
+}
+
+.verborgen {
+    width: 100%;
+    height: 0%;
+    background-color: #2e5d56;
+    transition: 2s ease-in;
+    overflow: hidden;
+}
+
+.verborgen p {
+    color: whitesmoke;
+}
+
+.verborgen h4 {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
