@@ -7,7 +7,6 @@ header{
     justify-content: space-between;
     align-items: center;
     background: #2e5d56;
-    padding: 10px;
     transition: 0.3s;
 }
 
@@ -165,10 +164,10 @@ p, h3 {
     padding: 13px;
 }
 
-main img {
-    height: 300px;
-    border-radius: 10px;
-    margin-left: 13px;
+.slogan {
+    background-color: white;
+    color: #2e5d56;
+    font-size: 0.67em;
 }
 
 footer {
@@ -209,26 +208,38 @@ footer p {
     border-radius: 5px;
 }
 
+
 /* Homepagina */
-.groen_vlak {
-    width: 375px;
-    height: 300px;
-    background-color: #BCE9E2;
-    border: 2px solid black;
-    margin-top: 15px;
-    margin-bottom: 15px;
+main img {
+    height: 325px;
 }
 
+.homepagina_tekst {
+    background-color: #2e5d56;
+    color: whitesmoke;
+    width: 375px;
+    border-radius: 0px 0px 20px 20px;
+    margin-top: 0px;
+}
+
+.kaas img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 300px;
+    margin-bottom: 0px;
+}
+
+.homepagina_tekst img {
+    width: 50px;
+    height: 50px;
+}
 .groen_vlak img {
     height: 250px;
     margin-top: 25px;
     display: flex;
     justify-content: right;
-}
-
-.groen_vlak h2 {
-    display: flex;
-    justify-content: left;
+    margin-bottom: 0px;
 }
 
 /* Fietsbezorging */
@@ -298,7 +309,7 @@ footer p {
 }
 
 .derde li {
-    color: black;
+    color: white;
 }
 
 .derde em {
@@ -359,6 +370,7 @@ footer p {
     border: 1px solid #2e5d56;
     margin-bottom: 25px;
     margin-left: 30px;
+    box-shadow: 5px 5px #2e5d56;
 }
 
 .contact_vlak_groot {
@@ -367,14 +379,15 @@ footer p {
     height: 120px;
     border: 1px solid #2e5d56;
     margin-left: 30px;
+    box-shadow: 5px 8px #2e5d56;
 }
-
 
 /* Recensies */
 .zicht {
     width: 100vw;
-    height: 150vh;
+    height: 100vh;
     background-color: #ffd9ab;
+    position: relative;
 }
 
 .zicht h3 {
@@ -386,17 +399,18 @@ footer p {
     border-bottom: solid;
 }
 
-.zicht:hover .verborgen {
-    height: 50%;
-    transition: 5s ease-in;
-}
-
 .verborgen {
+    position: relative;
     width: 100%;
     height: 0%;
     background-color: #2e5d56;
     transition: 2s ease-in;
     overflow: hidden;
+}
+
+.zicht:hover .verborgen {
+    height: 100%;
+    transition: 5s ease-in;
 }
 
 .verborgen p {
@@ -408,4 +422,88 @@ footer p {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+}
+
+
+
+/* probeersel */
+
+/* .wit_blok {
+    background-color: white;
+    width: 375px;
+    height: 370px;
+}
+
+.wit_blok img {
+    width: 150px;
+    height: 230px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.wit_blok h2 {
+    width: 200px;
+    font-size: 1.5em;
+    padding: 30px 0px 0px 20px;
+}
+
+.wit_blok p {
+    width: 200px;
+}
+*/
+.wit_blok {
+    width: 365px;
+    height: 420px;
+    background-image: url(afbeeldingen/bood.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 0 20px 0px 20px;
+}
+
+.wit_blok h2 {
+    margin-left: 15px;
+    margin-top: 20px;
+    color: #2e5d56;
+    font-size: 1.7em;
+}
+
+.wit_blok h3 {
+    font-size: 0.9em;
+}
+
+.wit_blok p {
+    width: 245px;
+    font-size: 0.9em;
+}
+
+.wit_blok h4 {
+    width: 335px;
+    margin-left: 15px;
+    font-size: 0.9em;
+    font-weight: 520;
+}
+
+.bestel_knop {
+    background-color: #2e5d56;
+    border-radius: 10px;
+    width: 140px;
+    height: 40px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+
+.bestel_knop h5 {
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.bestel_knop a {
+    text-decoration: none;
 }
