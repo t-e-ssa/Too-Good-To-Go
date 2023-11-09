@@ -35,9 +35,9 @@ nav {
     position: fixed;
     top: 0;
 
-    right: -250px;
+    right: -290px;
     background: #2e5d56;
-    width: 250px;
+    width: 290px;
     height: 100%;
     padding-top: 65px;
     z-index: 1;
@@ -140,6 +140,7 @@ nav input:checked ~ .menu {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: anonymous-pro, monospace;
 }
 
 body {
@@ -153,7 +154,6 @@ p {
 h1 {
     color: whitesmoke;
     font-size: 1.7em;
-    font-family: Acumin Variable Concept;
 }
 
 h3 {
@@ -175,7 +175,7 @@ footer {
     background-color: #2e5d56;
     height: 90px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 40px;
 }
  
 footer img {
@@ -240,14 +240,13 @@ main img {
     margin-top: 25px;
     display: flex;
     justify-content: right;
-    margin-bottom: 0px;
 }
 
 /* Fietsbezorging */
 .boog {
     background-color: #2e5d56;
     width: 350px;
-    height: 470px;
+    height: 500px;
     border-radius: 70px 0px 70px 0;
     margin: 13px;
 }
@@ -280,6 +279,7 @@ main img {
 
 .tweede {
     border-radius: 0 70px 0 70px;
+    height: 580px;
 }
 
 .tweede h2 {
@@ -294,7 +294,7 @@ main img {
 }
 
 .derde {
-    height: 635px;
+    height: 835px;
 }
 
 .derde img {
@@ -310,18 +310,18 @@ main img {
 }
 
 .derde li {
-    color: white;
+    color: #BCE9E2;
 }
 
 .derde em {
-    color: #BCE9E2;
+    color: black;
 }
 
 /* Duurzaamheidsdoelen */ 
 
 .wit_blok {
     width: 365px;
-    height: 420px;
+    height: 500px;
     background-image: url(afbeeldingen/bood.png);
     background-position: center;
     background-size: cover;
@@ -358,7 +358,7 @@ main img {
 .bestel_knop {
     background-color: #2e5d56;
     border-radius: 10px;
-    width: 140px;
+    width: 180px;
     height: 40px;
     margin-left: 12px;
     margin-top: 10px;
@@ -378,7 +378,7 @@ main img {
 
 .wit_vlak {
     width: 310px;
-    height: 180px;
+    height: 210px;
     background-color: white;
     margin-top: 30px;
     border-radius: 0px 10px 0px 0px;
@@ -394,6 +394,77 @@ main img {
 .rechts {
     margin-left: 80px;
     border-radius: 10px 0 0 0;
+}
+
+/* Recensies */
+
+.personages img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid #2e5d56;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.personages {
+    width: 190px;
+    height: 350px;
+    background-color: #BCE9E2;
+    border-radius: 0 25px 0 25px;
+    margin: 15px;
+    /* display: flex;
+    justify-content: center; */
+    border: 4px solid #2e5d56; 
+}
+
+.kaart {
+    display: flex;
+    flex-direction: row;
+}
+
+.personages p {
+    margin-left: 2px;
+    font-size: 0.5em;
+}
+
+.kaart h3 {
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 0.7em;
+}
+
+.review img {
+    border-radius: 0px;
+    border: none;
+    width: 120px;
+    height: 30px;
+    margin-left: 15px;
+}
+
+.johanneke img {
+    margin-top: 30px ;
+}
+
+.louise {
+    margin-top: -4px;
+}
+
+.miriam {
+    margin-top: -18px;
+}
+
+.mick {
+    margin-top: 45px;
+}
+
+.britt {
+    margin-top: 20px;
+}
+
+.matthijs {
+    margin-top: 25px;
 }
 
 /* Contact */
@@ -446,51 +517,4 @@ main img {
     border: 1px solid #2e5d56;
     margin-left: 30px;
     box-shadow: 5px 8px #2e5d56;
-}
-
-/* Recensies */
-
-.personages img {
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    border: 3px solid #2e5d56;
-    margin-top: 15px;
-    margin-left: 25px;
-}
-
-.personages {
-    width: 190px;
-    height: 300px;
-    background-color: #BCE9E2;
-    border-radius: 0 25px 0 25px;
-    margin: 15px;
-    /* display: flex;
-    justify-content: center; */
-    border: 4px solid #2e5d56; 
-}
-
-.kaart {
-    display: flex;
-    flex-direction: row;
-}
-
-.personages p {
-    margin-left: 10px;
-    font-size: 0.8em;
-}
-
-.kaart h3 {
-    padding-left: 10px;
-    display: flex;
-    justify-content: center;
-    font-size: 0.9em;
-}
-
-.review img {
-    border-radius: 0px;
-    border: none;
-    width: 120px;
-    height: 30px;
-    margin-left: 15px;
 }
