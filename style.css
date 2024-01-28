@@ -242,7 +242,7 @@ main img {
 
 .boog p {
     padding-top: 40px;
-    color: #BCE9E2;
+    color: whitesmoke;
     margin-left: 5px;
 }
 
@@ -257,7 +257,7 @@ main img {
     margin-left: 25px;
     margin-right: 20px;
     font-size: 0.9em;
-    color: #BCE9E2;
+    color: whitesmoke;
 }
 
 .tweede {
@@ -294,11 +294,7 @@ main img {
 }
 
 .derde li {
-    color: #BCE9E2;
-}
-
-.derde em {
-    color: black;
+    color: whitesmoke;
 }
 
 /* Duurzaamheidsdoelen */ 
