@@ -203,7 +203,6 @@ footer p {
     border-radius: 5px;
 }
 
-
 /* Homepagina */
 main img {
     height: 325px;
@@ -251,13 +250,6 @@ main img {
     height: 150px;
     margin-top: 50px;
     margin-left: 25px;
-}
-
-.boog ul {
-    margin-left: 25px;
-    margin-right: 20px;
-    font-size: 0.9em;
-    color: whitesmoke;
 }
 
 .tweede {
@@ -361,7 +353,7 @@ main img {
 }
 
 .bestel_knop {
-    background-color: #2e5d56;
+    background-color:#2e5d56;
     border-radius: 10px;
     width: 180px;
     height: 40px;
@@ -370,7 +362,7 @@ main img {
 }
 
 .bestel_knop h5 {
-    color: white;
+    color:whitesmoke;
     font-size: 1.2em;
     display: flex;
     justify-content: center;
@@ -384,7 +376,7 @@ main img {
 .wit_vlak {
     width: 310px;
     height: 160px;
-    background-color: white;
+    background-color:#2e5d56;
     margin-top: 30px;
     border-radius: 0 10px 0 0;
 }
@@ -392,17 +384,24 @@ main img {
 .wit_vlak h5 {
     margin-left: 10px;
     padding-top: 10px;
-    color: #2e5d56;
+    color: whitesmoke;
     font-size: 0.9em;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.wit_vlak p {
+    color: whitesmoke;
 }
 
 .rechts {
-    margin-left: 80px;
+    margin-left: 70px;
     border-radius: 10px 0 0 0;
 }
 
 .rechts p {
     margin-right: 5px;
+    color: whitesmoke;
 }
 
 /* Recensies */
@@ -503,16 +502,6 @@ main img {
     text-decoration: none;
 }
 
-.contact_vlak_klein {
-    background-color: whitesmoke;
-    width: 220px;
-    height: 45px;
-    border: 1px solid #2e5d56;
-    margin-bottom: 25px;
-    margin-left: 30px;
-    box-shadow: 5px 5px #2e5d56;
-}
-
 .contact_vlak_groot {
     background-color: whitesmoke;
     width: 320px;
@@ -520,4 +509,22 @@ main img {
     border: 1px solid #2e5d56;
     margin-left: 30px;
     box-shadow: 5px 8px #2e5d56;
+}
+
+#contactveld {
+    box-shadow: 5px 5px #2e5d56;
+    width: 220px;
+    height: 45px;
+    border: 0;
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.contactveld_groot {
+    box-shadow: 7px 7px #2e5d56;
+    width: 300px;
+    height: 150px;
+    border: 0;
+    margin-left: 30px;
+    margin-bottom: 25px;
 }
