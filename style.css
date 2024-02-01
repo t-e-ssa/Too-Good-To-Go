@@ -318,30 +318,34 @@ main img {
 /* Duurzaamheidsdoelen */ 
 .wit_blok {
     width: 365px;
-    height: 450px;
-    background-image: url(afbeeldingen/bood.png);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
+    height: 400px;
+    background-color:#BCE9E2;
     margin-top: 15px;
     margin-left: 5px;
     border-radius: 0 20px 0px 20px;
+    border: #2e5d56;
+}
+
+.wit_blok img {
+    width: 120px;
+    height: 180px;
+    margin-left: 240px;
+    margin-top: 60px;
 }
 
 .wit_blok h2 {
     margin-left: 15px;
-    margin-top: 20px;
-    color: #2e5d56;
+    padding-top: 20px;
+    color:#2e5d56;
     font-size: 1.7em;
 }
 
 .wit_blok h3 {
     font-size: 0.9em;
+    color:#2e5d56;
 }
 
 .wit_blok p {
-    width: 245px;
     font-size: 0.9em;
 }
 
@@ -511,7 +515,7 @@ main img {
     box-shadow: 5px 8px #2e5d56;
 }
 
-#contactveld {
+.contactveld {
     box-shadow: 5px 5px #2e5d56;
     width: 220px;
     height: 45px;
