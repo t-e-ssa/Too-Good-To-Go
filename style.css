@@ -317,13 +317,13 @@ main img {
 
 /* Duurzaamheidsdoelen */ 
 .wit_blok {
-    width: 365px;
-    height: 400px;
+    width: 360px;
+    height: 410px;
     background-color:#BCE9E2;
     margin-top: 15px;
-    margin-left: 5px;
-    border-radius: 0 20px 0px 20px;
-    border: #2e5d56;
+    margin-left: 8px;
+    border: 3px solid #2e5d56;
+    border-radius: 0 20px 0 20px;
 }
 
 .wit_blok img {
